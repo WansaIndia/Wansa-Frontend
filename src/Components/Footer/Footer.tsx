@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="Footer">
         <div className="Footer-section">
             <div className="section-1">
-            <img src="/images/wansa.png" alt="something went wrong" />
+            <img src="/Images/wansa.png" alt="something went wrong" />
             <p>To be growth catalyst for startups MSMEs and SMEs by offering solutions through offline ,digital ,technology & resolving their problems in Reach, Visibility ,Sales & Revenue.</p>
             </div>
             <div className="section-2">
