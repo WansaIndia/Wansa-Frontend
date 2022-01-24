@@ -2,6 +2,7 @@ import React from 'react'
 import Navigation from '../../Components/Navigation/Navigation';
 import QuestionCard from '../../Components/QuestionCard/QuestionCard';
 import './Proposal.css';
+import Footer from '../../Components/Footer/Footer';
 
 function Proposal() {
     return (
@@ -15,6 +16,7 @@ function Proposal() {
                 </div>
             </div>
             <QuestionCard />
+            <Footer />
         </div>
     )
 }

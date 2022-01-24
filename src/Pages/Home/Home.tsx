@@ -6,6 +6,7 @@ import Section from '../../Components/Section/Section'
 import SectionTwo from '../../Components/Section-2/SectionTwo'
 import Card from '../../Components/Card/Card'
 import Typewriter from 'typewriter-effect'
+import Footer from '../../Components/Footer/Footer'
 
 function Home() {
     return (
@@ -62,6 +63,7 @@ function Home() {
             <Section />
             <SectionTwo />
             <Card />
+            <Footer />
         </div>
     )
 }
