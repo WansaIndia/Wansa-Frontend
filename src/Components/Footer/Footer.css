@@ -1,12 +1,9 @@
-:root{
-    color: white;
-}
-
 .Footer{
     height:60vh;
     width:100vw;
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 .Footer-section{

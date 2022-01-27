@@ -83,7 +83,7 @@ function Accordian() {
                             </div>
                     </div>
                     <div className='accordian-container-right'>
-                        <img src="Images/heart.png" alt=''/>
+                        <img src="Images/hero.jpg" alt=''/>
                     </div>
                 </div>
             </div>

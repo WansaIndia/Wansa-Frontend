@@ -4,60 +4,72 @@
     margin-right: auto;
 }
 
-.question-container .question-card{
-    width: 40vw;
-    display: inline-block;
-    background-color: #fff;
-    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.1);
-    margin-top: 10vh;
-    border-radius: 10px;
-    margin-bottom: 10vh;
-    margin-right: 2.5vw;
-    margin-left: 2.5vw;
+.question-section{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
 }
 
-.question-container .question-card .question{
+.prev{
+    margin-top: 12vh;
+}
+
+.question-card{
+    height:60vh;
+    width: 60vw;
+    padding: 60px;
+    display: block;
+    background-color: rgb(255, 254, 249);
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-sizing:border-box;
+}
+
+.question{
     font-size: 1.5rem;
     text-align: center;
     padding: 3vh 5vw;
 }
 
-.question-container .question-card .question span{
+.question span{
     color: red;
 }
 
-.question-container .question-card .hint{
+.hint{
     font-size: 0.9rem;
     text-align: center;
     color: gainsboro;
 }
 
-.question-container .question-card .options{
+.options{
     text-align: center;
 }
 
-.question-container .question-card .options .ans{
+.ans{
     font-size: 1.5rem;
     border: 1px solid gray;
     border-radius: 10px;
-    width: 15vw;
-    height: 7vh;
-    display: inline-block;
+    width: fit-content;
+    padding: 1vh 1vw;
+    height: fit-content;
+    display:inline-flex ;
     margin: 3vh;
-    padding-top: 1.5vh;
 }
 
-.question-container .question-card .options .ans input.chk{
+.chk{
     width: 1.25rem;
     height: 1.25rem;
     margin-right: 1vw;
 }
 
-.question-container .but{
+.but{
     text-align: center;
 }
 
-.question-container .but button{
+.but button{
     background-color: #00b170;
     border: none;
     color: #fff;
@@ -66,4 +78,26 @@
     font-size: 1.25rem;
     margin-top: -3vh;
     margin-bottom: 3vh;
+}
+
+@media screen and (max-width:1124px){
+    .options{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .question-card{
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width:768px){
+    .question-card{
+        width: fit-content;
+    }
+
+    .ans{
+        padding: 0 4vw;
+    }
 }
