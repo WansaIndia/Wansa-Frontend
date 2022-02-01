@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .heading{
@@ -22,7 +23,6 @@
     font-weight: bold;
     font-size: 3rem;
     width:80%;
-    align-self: center;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -34,23 +34,21 @@
     line-height: 2rem;
     width: 70%;
     margin-top: 4vh;
-    align-self: center;
 }
 
-.button{
+.button-d{
     margin-top: 4vh;
-    align-self: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.button input{
+.button-d input{
     width: 12vw;
     height: 7vh;
 }
 
-.button button{
+.button-d button{
     width: fit-content;
     height: 8vh;
     border: 1px solid black;

@@ -26,9 +26,9 @@ function Home() {
                     <div className="content">
                         Choose WebFX as your digital marketing agency and propel your business to new heights with our award-winning digital marketing services and technology platform.
                     </div>
-                    <div className="button">
+                    <div className="button-d">
                         <input type="email" placeholder='Enter your E-mail'/>
-                        <button>Book an Appointment Call</button>
+                        <button type='button'>Book an Appointment Call</button>
                     </div>
                 </div>
                 <div className="services">
