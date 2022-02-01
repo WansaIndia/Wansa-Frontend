@@ -17,7 +17,7 @@ function Home() {
                     <div className="heading">
                         We Provide <Typewriter 
                             options={{
-                                strings: ['Marketing', 'Web Development', 'Influencers', 'Services'],
+                                strings: [' Marketing', ' Web Development', ' Influencers', ' Services'],
                                 autoStart: true,
                                 loop: true
                             }}
