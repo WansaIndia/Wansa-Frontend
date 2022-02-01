@@ -1,8 +1,7 @@
 .header{
-    height: fit-content;
+    height: min-content;
     display: flex;
     width: 100%;
-
 }
 
 .stats{
@@ -80,7 +79,6 @@
 
 .login-register{
     margin: 0.6em 2em 0.6rem 0;
-    margin-left: auto;
     cursor: pointer;
 }
 
@@ -89,4 +87,10 @@
     border: 2px solid wheat;
     border-radius: 5px;
     font-size: 0.8rem;
+}
+
+@media screen and (max-width:871px) {
+    .search button{
+        width: 40vw;
+    }
 }
