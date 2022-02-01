@@ -11,7 +11,7 @@ function Navigation() {
                 <div className='logo'><img src="./Images/wansa.png" alt=''/></div>
                 <ul className='nav-items'>
                     <li className="nav-item">
-                        SEO & Lead Generation <i className="fas fa-chevron-down"></i>
+                        SEO & Lead Generation 
                         <ul className="sub-list-1">
                             <ul className="list">
                                 <div className='list-1'>
@@ -59,7 +59,7 @@ function Navigation() {
                             </ul>
                         </ul>
                     </li>
-                    <li className="nav-item">Ecommerce <i className="fas fa-chevron-down"></i>
+                    <li className="nav-item">Ecommerce 
                     <ul className="sub-list-2">
                             <ul className="list">
                                 <div className='list-1'>
@@ -107,7 +107,7 @@ function Navigation() {
                             </ul>
                         </ul>
                     </li>
-                    <li className="nav-item">UX & Interactive <i className="fas fa-chevron-down"></i>
+                    <li className="nav-item">UX & Interactive 
                     <ul className="sub-list-3">
                             <ul className="list">
                                 <div className='list-1'>
@@ -155,7 +155,7 @@ function Navigation() {
                             </ul>
                         </ul>
                     </li>
-                    <li className="nav-item">Our Technology <i className="fas fa-chevron-down"></i>
+                    <li className="nav-item">Our Technology 
                     <ul className="sub-list-4">
                             <ul className="list">
                                 <div className='list-1'>
@@ -203,7 +203,7 @@ function Navigation() {
                             </ul>
                         </ul>
                     </li>
-                    <li className="nav-item">Who We Are <i className="fas fa-chevron-down"></i>
+                    <li className="nav-item">Who We Are 
                     <ul className="sub-list-5">
                             <ul className="list">
                                 <div className='list-1'>
