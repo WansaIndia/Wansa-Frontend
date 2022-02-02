@@ -10,7 +10,7 @@ function Proposal() {
             <Navigation />
             <div className="hero body">
                 <div className="container">
-                    <div className="heading">Would you prefer to talk to someone <strong>in person</strong>?</div>
+                    <div className="heading-d">Would you prefer to talk to someone <strong>in person</strong>?</div>
                     <div className="desc">Speak with a strategist:</div>
                     <button className="call"><i className="fas fa-mobile"></i> 888-601-5359</button>
                 </div>

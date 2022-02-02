@@ -20,7 +20,7 @@
 .question-card{
     height:60vh;
     width: 60vw;
-    padding: 60px;
+    padding: 30px;
     display: block;
     background-color: rgb(255, 254, 249);
     box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.1);

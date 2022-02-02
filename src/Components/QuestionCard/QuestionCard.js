@@ -3,6 +3,7 @@ import './QuestionCard.css'
 import questions from './questions';
 import PutLink from './putLink';
 
+
 function QuestionCard() {
 
     const noOfQues = questions.length

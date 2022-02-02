@@ -28,6 +28,10 @@ body{
     color: #fff;
 }
 
+.menu{
+    display: none;
+}
+
 .nav-items{
     list-style: none;
     display: flex;
@@ -112,6 +116,7 @@ body{
     padding: 10vh 0;
     text-align: center;
 }
+
 
 .nav-item .sub-list-1 .list .list-1,
 .nav-item .sub-list-1 .list .list-2,
@@ -361,6 +366,25 @@ body{
     visibility: visible;
 }
 
+.sub-list-1, .sub-list-2, .sub-list-3, .sub-list-4, .sub-list-5{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media screen and (max-width:850px) {
-    
+    .logo{
+        margin-top:1vh;
+    }
+    .menu{
+        display: inline;
+        margin-right: 5vw;
+        font-size: larger;
+    }
+    .nav-items{
+        display: none;
+    }
+
+    .navigation{
+        justify-content: space-between;
+    }
 }

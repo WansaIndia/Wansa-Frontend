@@ -9,6 +9,7 @@ function Navigation() {
             <Header />
             <div className='navigation'>
                 <div className='logo'><img src="./Images/wansa.png" alt=''/></div>
+                <div className="menu">&#8801;</div>
                 <ul className='nav-items'>
                     <li className="nav-item">
                         SEO & Lead Generation 
