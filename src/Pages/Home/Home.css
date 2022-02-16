@@ -39,20 +39,23 @@
 .button-d{
     margin-top: 4vh;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .button-d input{
     width: 12vw;
-    height: 7vh;
+    height: auto;
+    padding: 18px 5px;
+    border-radius: 5px;
+    margin-right: 2vw;
 }
 
 .button-d button{
     width: fit-content;
-    height: 8vh;
+    height: auto;
     border: 1px solid black;
     cursor: pointer;
+    border-radius: 5px;
+    padding: 18px 5px;
 }
 
 .services{
@@ -77,11 +80,10 @@
 
 .chatbot{
     position: fixed;
-    font-size: 3rem;
     margin: 2rem;
     cursor: pointer;
-    width: 4.8vw;
-    margin-top: -25vh;
+    width: auto;
+    margin-top: -10vh;
     z-index: 3;
 }
 
@@ -93,6 +95,7 @@
 .fa-whatsapp{
     color: #fff;
     padding: 0.8rem 1rem;
+    font-size: 30px;
 }
 
 @media screen and (max-width:856px) {
@@ -106,8 +109,8 @@
         max-width: 100%;
         width: 100vw;
     }
-    .button input{
-        width: min-content;
+    .button-d input{
+        width: 26vw;
     }
     .services{
         flex-wrap: wrap;
