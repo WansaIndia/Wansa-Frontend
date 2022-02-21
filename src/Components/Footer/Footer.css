@@ -114,6 +114,8 @@ a{
     .Footer-section{
         flex-direction: column;
         align-items: center;
+        padding-left: 5vw;
+        padding-right: 5vw;
     }
     .section-1 {
         width:100%;

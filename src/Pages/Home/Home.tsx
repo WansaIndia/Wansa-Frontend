@@ -14,7 +14,7 @@ function Home() {
             <Navigation />
             <div className="hero">
                 <div className="description">
-                    <div className="heading">
+                    <div className="heading-h">
                         We Provide <Typewriter 
                             options={{
                                 strings: [' Marketing', ' Web Development', ' Influencers', ' Services'],

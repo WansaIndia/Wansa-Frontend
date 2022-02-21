@@ -2,15 +2,16 @@ body{
     color: black;
 }
 .card-container{
-    width: 80vw;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .card-container .card{
-    width: 25vw;
-    margin: 5rem;
-    display: inline-block;
+    width: 40vw;
+    margin: 5rem 1rem;
+    /* display: inline-block; */
 }
 
 .card-container .card .logo-img{
@@ -25,16 +26,27 @@ body{
     padding-left: 0.2vw;
     padding-top: 0.8vh;
     font-size: 2rem;
+    margin-right: -17px;
+    margin-top: -17px;
     color: #ffe27b;
 }
 
-.card-container .card .heading{
+.card-container .card .heading-d{
     font-weight: bold;
     font-size: 1.5rem;
     margin: 3vh 0;
+    color: black;
+    text-align: left;
 }
 
 .card-container .card .description{
     font-size: 1.2rem;
     line-height: 1.8rem;
+    width:inherit;
+}
+
+@media screen and (max-width: 991px){
+    .card-container .card{
+        width:85vw
+    }
 }
