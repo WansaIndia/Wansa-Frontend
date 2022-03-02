@@ -39,7 +39,7 @@ body{
     text-align: left;
 }
 
-.card-container .card .description{
+.card-container .card .description-d{
     font-size: 1.2rem;
     line-height: 1.8rem;
     width:inherit;

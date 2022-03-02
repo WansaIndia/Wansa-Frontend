@@ -26,7 +26,7 @@ body{
 }
 
 .section-container .section-description img{
-    position: relative;
+    /* position: relative; */
     height: 400px;
     width: 400px;
     margin-top:5vh;
@@ -38,13 +38,13 @@ body{
 }
 
 .section-container .section-description .section-container-left h2{
-    position: relative;
+    /* position: relative; */
     font-size: 2.25rem;
     width: 80%;
 }
 
 .section-container .section-description .section-container-left div{
-    position: relative;
+    /* position: relative; */
     font-size: 1.25rem;
     margin-top: 1rem;
     width: 40vw;
@@ -119,13 +119,13 @@ body{
     }
 
     .section-container .section-description img{
-        position: relative;
+        /* position: relative; */
         width: 50vw;
         margin: 0 18vw 0 18vw;
     }
 
     .section-container .section-description .section-container-left h2{
-        position: relative;
+        /* position: relative; */
         font-size: 2rem;
         margin-top: 4rem;
         width: 100%;

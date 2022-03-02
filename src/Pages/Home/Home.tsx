@@ -7,7 +7,7 @@ import SectionTwo from '../../Components/Section-2/SectionTwo'
 import Card from '../../Components/Card/Card'
 import Typewriter from 'typewriter-effect'
 import Footer from '../../Components/Footer/Footer'
-
+import Wansabot from '../../Components/Chatbot/chatbot'
 function Home() {
     return (
         <div>
@@ -59,6 +59,7 @@ function Home() {
                 </div>
                 </a>
             </div>
+            <Wansabot />
             <Accordian />
             <Section />
             <SectionTwo />

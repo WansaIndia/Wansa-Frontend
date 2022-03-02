@@ -259,7 +259,7 @@ function Navigation() {
                         </li>
                     </ul>
                 </div>
-                    <div className="proposal">
+                    <div className="proposal-p">
                         <Link to="/proposal" className='tdn'><button className="nav-item button">Get a Proposal</button></Link>
                     </div>
                 <div className="menu"><a href="#" onClick={() => setShowNavItems(!showNavItems)}>&#8801;</a></div>

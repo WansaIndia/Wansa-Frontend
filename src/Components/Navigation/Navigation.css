@@ -84,7 +84,7 @@ body{
     margin-right: 0.5vw;
 }
 
-.proposal{
+.proposal-p{
     grid-column: 4/5;
     display: flex;
     justify-content: end;
@@ -458,7 +458,7 @@ body{
         width: fit-content;
     }
     
-    .proposal{
+    .proposal-p{
         display: none;
     }
     

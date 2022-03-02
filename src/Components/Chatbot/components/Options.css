@@ -1,0 +1,33 @@
+.visible{
+    display: block;
+}
+
+.none{
+    display:none;
+}
+
+.choose{
+    text-align: left;
+    font-size: small;
+}
+
+.butt-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.butt-o{
+    width:48%;
+    height:90px;
+    background-color: unset;
+    margin-bottom: 14px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.butt-o:hover{
+    width:50%;
+    height:95px;
+}
